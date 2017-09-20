@@ -55,13 +55,13 @@ li {
 }
 
 .nav-links:link {
-    color: #FFF;
+    color: #BFC9CA;
     text-decoration:none;
     
     
 }
 .nav-links:visited {
-    color: #FDFEFE;
+    color: #BFC9CA;
     text-decoration:none;
 }
 
@@ -118,7 +118,7 @@ h3 {
     padding-top: 15px;
     
 }
-img{align-content: space-around}
+img{align-content: space-around; margin-left: 80px}
 
 p {
     color: #17202A;
