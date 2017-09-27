@@ -1,0 +1,32 @@
+/*
+The default style sheet for the entire site.
+*/
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(../img/gradient1.png); 
+    background-repeat: repeat-x;
+    background-size: 100% 120%; */
+    background-color: lightblue;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+   
+}
+
+h1 {
+    /* background-image: url(../img/title-background1.jpg); 
+    background-size: 100% 100%; */
+    background-color: dodgerblue;
+    color: #FFF;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 2.1875em;
+    padding: 189px 119px 26px 83px;
+}

@@ -1,0 +1,114 @@
+/* The default style sheet for this site. */
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+*{
+margin:0;
+padding:0;
+}
+
+
+.clearfix:before, .clearfix:after {
+content: " ";
+display: table; }
+.clearfix:after { clear: both;
+}
+.clearfix { *zoom: 1;
+}
+
+body {
+font-family: 'PTSans', Geneva, Tahoma, Verdana, sans-serif;
+font-size: 100%;
+font-weight: 400;
+max-width: 60em;
+min-width: 40em; 
+margin: 0 auto;
+background-color: #E9E9E9;
+}
+
+.main-nav {
+width: 80%;
+margin: 2em auto .5em auto;
+min-height: 5em;
+background-color: #EAAF31;
+/*Add a 6px border radius on all four corners*/
+-webkit-border-radius: 6px;
+border-radius: 6px;
+/*Add a faint shadow around the box*/
+-webkit-box-shadow: 0 0 6px 3px #DBDBDB;
+box-shadow: 0 0 6px 3px #DBDBDB;
+}
+
+article {
+width: 80%;
+margin:0 auto;
+min-height: 20em;
+/*Add a 6px border radius on all four corners*/
+-webkit-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: 0 0 6px 3px #DBDBDB;
+/*Add a faint shadow around the box*/
+box-shadow: 0 0 6px 3px #DBDBDB;
+/*Add a gradient to the box background*/
+background-color: #298CAD;
+background: linear-gradient(#298CAD, #a5b9c9);
+}
+
+.site-info {
+width: 80%;
+margin: .5em auto 5em auto;
+min-height: 5em;
+background-color: #A6C444;
+/*Add a 6px border radius on all four corners*/
+-webkit-border-radius: 6px;
+border-radius: 6px;
+/*Add a faint shadow around the box*/
+-webkit-box-shadow: 0 0 6px 3px #DBDBDB;
+box-shadow: 0 0 6px 3px #DBDBDB;
+}
+
+figure {
+width: 26.1%;
+height: 9.375em;
+position: relative;
+margin: 5em 0 0 0;
+overflow: hidden;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+}
+
+#thumbnail-1 {
+float:left;
+margin-left: 7em;
+}
+
+#thumbnail-2 {
+float:right;
+margin-right: 7em;
+}
+
+figcaption {
+font-size: 90%;
+display: block;
+height: 150px;
+background-color: #000;
+position: absolute;
+padding-top: 40px;
+padding-left: 20px;
+padding-right: 20px;
+color: #fff;
+opacity: 0;
+transition: opacity .4s ease;
+}
+
+figcaption:hover {
+opacity: .6;
+}
+
+/*
+figure.thumbnail a {
+transition: opacity .4s ease;
+} 
+
+.thumbnail a:hover {
+opacity: 0.5;
+
+*/

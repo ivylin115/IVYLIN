@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 600px;
+}
+
+.gallery figure {
+    color: blue;
+    float:left;
+    height:200px;
+    text-align: center;
+    width:28%;
+    margin: 20px;
+    height: 200px;
+    /*float: left;*/
+    /*height: 200px;*/
+    /*margin: 20px;*/
+    /*text-align: center;*/
+    /*width: 28%;*/
+}
+
+.gallery. test margin 1:active { margin: 40px}
