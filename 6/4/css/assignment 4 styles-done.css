@@ -1,0 +1,124 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9EBEA;
+    font-family: 'Josefin Slab', serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+}
+
+header {
+    background-color: #F9EBEA;
+    font-family:'Josefin Slab', serif;
+    background-image: url('ivyweb1.jpg');
+    background-size: 100% 100%;
+    min-height: 150px;
+    padding-bottom: 60px;
+    text-align: left
+}
+
+h1 {
+    color: #F5B041;
+padding: 189px 119px 26px 83px;
+}
+
+nav {
+    background-color: #F9EBEA;
+    float: left; 
+    min-height: 300px;
+    width:900px;
+    
+}
+h2{ color: lightcoral;
+}
+
+.main-nav {
+    background-color:antiquewhite;
+    padding-top: 30px;
+    
+}
+
+.main-nav li {
+    list-style-type: none;
+    padding: 20px;
+    text-align: center; 
+    display: inline-block;
+    padding-left: 70px;
+    
+}
+
+.main-nav li a:link {
+    text-decoration: none;
+}
+
+.social-links {
+    background-color:#F9EBEA;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: inline-block
+   
+}
+
+.social-links li {
+    list-style-type: none;
+    display: inline-block
+    padding: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 300px;
+    text-align: center;
+}
+
+.social-links li a:link {
+    text-decoration: none;
+
+}
+
+main {
+    background-color: #F9EBEA;
+    float: center;
+    padding-left: 70px;
+    width: 600px;
+    min-height: 500px;
+
+}
+
+
+.gallery figure {
+    color: blue;
+    float: left;
+    height: 175px;
+    margin: 20px;
+    text-align: center;
+    width: 28%;
+}
+
+.footer-nav{
+text-decoration-color: lightblue;
+    text-align: center;
+    list-style-type: none;
+   text-decoration: none;
+    display: inline-block;
+    padding-top: 280px;
+}
+
+
+
+footer {
+    background-color: #F9EBEA;
+    clear: both;
+    text-align: center;
+        
+}
