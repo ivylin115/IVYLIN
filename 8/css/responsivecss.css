@@ -1,0 +1,344 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+
+margin:0px;
+padding:0px;
+fluid:;
+
+header {
+    background-color: white;
+    font-family:'Josefin Slab', serif;
+    background-size: 100% 100%;2
+    text-align: left;
+    text-decoration-line: none;
+    text-decoration-color: aliceblue;
+}
+body {
+  margin: 0;
+  background:white;
+background-color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 100%;
+    margin: auto;
+    max-width: value;
+    min-width: 480px;
+    
+}
+
+.img{ width: 100%;
+float: inherit;}
+
+
+h1 {
+/*  position: absolute;*/
+  top: 60%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: black;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+    
+}
+
+h1 span {
+  font-family: sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 span a {
+  color: #fff;
+}
+
+}
+.main-title{padding-top: 0px;
+position: absolute;font: san-serif;
+top: 300px;
+left:400px;
+text-decoration-color: black;text-decoration: none;list-style: none}
+h1 {
+    color: black;
+    position: absolute;
+    /* padding: 189px 119px 10px 83px; */
+    top: 350px;
+    width: 100%;
+}
+ul{text-decoration: none;list-style-type: none;list-style: none}
+.nav-links{background-color: none;
+float: center;
+width: 100%;
+font-family: sans-serif;
+text-decoration-color: none;
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+    margin: 30px;
+    letter-spacing: 5px;
+    display: inline-block;
+    text-align: center
+    
+    
+}
+
+nav {
+    background-color: white;
+    float: center; 
+    /*min-height: 100px;*/
+    width: 100%;
+    width:1300px;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    text-decoration-color: none;
+    position: absolute
+}
+
+.landing-nav{ margin: 0;
+/*
+    padding-top: 0px;
+    font:'Josefin Slab', serif; 
+    color: white;
+    text-decoration: none;
+    text-decoration-color: none;
+    text-align: center;
+    display: inline-block;
+    text-decoration-line: none;
+*/
+    position: absolute;
+    top: 600px;
+    left: 650px;
+    text-decoration-color: black;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+.home-nav{ 
+    text-align: center;
+    background-color:none;
+    text-decoration: none;
+    list-style:none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 400px;
+    
+ }
+.home-nav li {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-left:70px;
+    padding: 111px;
+    text-align: center; 
+    display: inline-block;
+    padding-left: 70px;
+    
+}
+
+.home-nav li a:link {
+    text-decoration: none;
+}
+.home-va links: visited { 
+    color: aliceblue;
+    text-decoration: none}
+
+
+.landing-nav:visited { text-decoration-color: none}
+.nav:visited{color: none;text-decoration: none}
+
+
+h2{ font-family: sans-serif;
+  letter-spacing: 0;
+  font-weight: 600;
+  font-size: 36px;
+    color: black;
+    padding-left: 100px;
+}
+
+h3{ padding-left:0px
+}
+h4{padding-left: 300px; padding-top: 250px; top: 800px; font-family: 'Josefin Slab', serif;}
+.h3-image{padding-top: 300px;padding-left: 350px;}
+.main-nav {
+    background-color:none;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    top: 100px;
+    
+    
+}
+
+.main-nav li {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-left:70px;
+    padding: 111px;
+    text-align: center; 
+    display: inline-block;
+    padding-left: 70px;
+    
+}
+
+.main-nav li a:link {
+    text-decoration: none;
+}
+.main-va links: visited { 
+    color: aliceblue;
+    text-decoration: none}
+
+.social-links {
+    background-color:white;
+    text-align: center;
+    display: inline-block
+   
+}
+
+
+.social-links li {
+    list-style-type: none;
+    display: inline-block
+    padding: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 10%;
+    text-align: center;
+}
+
+.social-links li a:link {
+    text-decoration: none;
+
+}
+
+home main { background-color:white;
+   margin: 0;background: #000}
+
+main  {
+    background-color:white;
+    float: center;
+    padding-left: 100;
+    top:300px;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+
+}
+.p{ padding-top: 0px;padding-left: 350px;
+}
+
+.gallery figure {
+    color: blue;
+    text-align: center;
+
+    float: left;
+    padding-top: 150px;
+    padding left: 10px;
+    background-size: 300px;
+/*    height: 175px;*/
+    margin: 20px;
+    text-align: center;
+    width: 28%;
+    overflow: hidden;
+}
+.footer-nav{
+text-decoration-color: lightblue;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    
+    list-style-type: none;
+   text-decoration: none;
+    display: inline-block;
+}
+.main communication-nav{background-color: none}
+
+.communication-nav{text-decoration-color: aliceblue; background-color:none;
+    text-decoration: none;
+    list-style:none;
+    text-align: center;
+    width: 1350px;
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    padding-bottom: 30px;
+padding-top: 300px;
+list-style-type: none;
+font-family:monospace}
+
+
+.communication-nav li a:link {
+    text-decoration: none;
+}
+.communication-nav links: visited { 
+    color: aliceblue;
+    text-decoration: none}
+
+.nav li:hover 
+.subnav{ left: auto}
+
+
+footer {
+    background-color:none;
+    clear: both;
+    text-align: center;
+    top: 0px;
+    padding: 0px;
+  max-width: width:100%;
+overflow: hidden;   width: 100%;
+    list-style-type: none;
+   text-decoration: none;
+    display: inline-block;
+        
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .body { width: 365px;margin:0; max-width: 100%; }
+    .nav{width:365px}
+    .first{ max-width: 100%; position: absolute;width:365px}
+    .navigation { width: 365px}
+    .landing-nav {width: 365px;text-align: center;left: 0px;top:150px }
+    footer {width: 365px;top: 100px}
+    .footer-nav{ width:365px;padding: 0px;text-align: center}
+    p { padding: 0px; width: 500px; top: 0px;width: 365px;text-align: center;margin: 0px}
+    .nav-links{ width:365px; margin: 0px;list-style: none;display: inline-block;left: 0px;}
+    .home-nav li{ width: 365px;  display: inline-block; padding:0px;;text-align: center}
+    .home-nav{ width: 365px;height: 360px; text-align: center}
+    nav{ width: 365px; padding:0px;}
+    h1{width: 365px; text-align: center; }
+    .gallery { width:365px; max-width: 100%}
+    .gallery figure{max-width: 100%; width: 365px; padding:0px;padding-top: 150px}
+    .main-nav{padding:0px;width:365px;margin:0px}
+    .main-nav li{ padding:0px; width: 365px; ;text-align: center}
+    .communication-nav{width:365px;display:inline-block;text-align: center}
+    .head{width: 365px}
+    .main{width:365px}
+    .nav-links{width: 365px;text-align: center}
+    h2{width:365px;text-align: center;padding: 0px;margin: 0px}
+    ul{padding:0px;width:365px;margin:0px;padding-top: 30px}
+    .background{position: absolute}
+    h4{width:365px;text-align: center;padding: 0px;margin: 0px;padding-top: 250px}
+    li{width:365px;padding: 0px;margin:0px}
+    img.h3-image{position:absolute;max-width: 100%;padding-top:250px;width:365px;padding-left:0px}
+    h3{width:365px;text-align: center;padding-top:600px;padding-bottom: 30px margin:0px}
+
+}
